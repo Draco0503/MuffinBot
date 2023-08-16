@@ -1,0 +1,15 @@
+{
+  "Bot_Data": {
+    "token": "",
+    "saucenao_key": ""
+  },
+  "URLs": {
+    "anilist": "https://graphql.anilist.co",
+    "saucenao": "https://saucenao.com/search.php?output_type=2&api_key={0}&url={1}",
+    "danbooru": {
+      "search": "https://danbooru.donmai.us/tags.json?search[name_or_alias_matches]={0}",
+      "random": "https://danbooru.donmai.us/posts/random.json?tags={0}",
+      "similar_tags": "https://danbooru.donmai.us/tags.json?limit=5&search[hide_empty]=true&search[order]=count&search[fuzzy_name_matches]={0}"
+    }
+  }
+}
